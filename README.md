@@ -1,1 +1,1 @@
-# myntra_admin
+# Nykaa_admin
