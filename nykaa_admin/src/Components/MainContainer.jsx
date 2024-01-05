@@ -4,7 +4,6 @@ import {
   Input,
   InputGroup,
   InputLeftElement,
-  VStack,
   HStack,
   Select,
   Text
@@ -14,7 +13,7 @@ import elipse from "../Assets/Ellipse.jpg"
 import avatar from "../Assets/Profile Avtar.jpg"
 import search from "../Assets/search.jpg"
 import arrowUp from "../Assets/arrow-up.jpg"
-import orders from './orders';
+
 const MainContainer = () => {
 
 
@@ -126,7 +125,7 @@ const MainContainer = () => {
       
        >ADD PRODUCT</Text>
      </Box>
-     <orders/>
+     <MainContainer/>
     </>
   )
 }

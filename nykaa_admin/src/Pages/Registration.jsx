@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link, useSearchParams, useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { register } from "../Redux/authentication/action";
 import { useDispatch } from "react-redux";
 

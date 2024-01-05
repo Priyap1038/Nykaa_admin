@@ -9,8 +9,8 @@ function App() {
   return (
     <div className="App">
      <adminRoutes/>
-     {/* <h1>hello</h1> */}
      <Dashboard/>
+     <h1></h1> 
     </div>
   );
 }
