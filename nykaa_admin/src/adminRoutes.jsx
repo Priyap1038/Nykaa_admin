@@ -8,8 +8,7 @@ import Signin from './Pages/Signin'
 const adminRoutes = () => {
   return (
     <div>
-        <Routes>
-          
+        <Routes>         
             <Route path='/dashboard' element={<Dashboard/>}/>
             <Route path='/registration' element={<Registration/>}/>
             <Route path='/login' element={<Signin/>}/>

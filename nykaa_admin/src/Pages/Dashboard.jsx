@@ -1,15 +1,14 @@
-import React from 'react'
-import { Container } from '@chakra-ui/react';
+import React from 'react';
 import Sidebar from "../Components/Sidebar"
 import MainContainer from '../Components/MainContainer';
 
 
 const Dashboard = () => {
   return (
-    <Container>
+    <div>
       <Sidebar/>
       <MainContainer/>
-    </Container>
+    </div>
   )
 }
 

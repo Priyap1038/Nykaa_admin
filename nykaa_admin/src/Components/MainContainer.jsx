@@ -13,6 +13,7 @@ import elipse from "../Assets/Ellipse.jpg"
 import avatar from "../Assets/Profile Avtar.jpg"
 import search from "../Assets/search.jpg"
 import arrowUp from "../Assets/arrow-up.jpg"
+import Productlist from './Productlist';
 
 const MainContainer = () => {
 
@@ -48,7 +49,6 @@ const MainContainer = () => {
       ml="271px"
       display="flex"
       justifyContent="space-between"
-      // justifyContent= ""
     >
       <Box display="flex" border="1px solid #00000033" bg="#FFFFFF" width="655px" height="52px" borderRadius="3px" >
       <InputGroup>
@@ -68,7 +68,7 @@ const MainContainer = () => {
       <Box width="124px" height="52px" display="flex" gap="20px"  position="relative"
       >
         <Box id="notification" width="52px" height="52px" borderRadius="3px" bg="#FFFFFF">
-            <Box w="24px" h="24px" m="14px 14px" ><img src={notification} alt="notification" /> </Box>
+            <Box w="24px" h="24px" m="14px 14px" ><img src={notification} alt="notification" /></Box>
         </Box>
         <Box w="10px" h="10px"  position="absolute" top="-3.1px" left="47px"  >
         <img src={elipse} alt="elipse" />
@@ -125,7 +125,7 @@ const MainContainer = () => {
       
        >ADD PRODUCT</Text>
      </Box>
-     <MainContainer/>
+     <Productlist/>
     </>
   )
 }

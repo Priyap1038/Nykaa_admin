@@ -6,7 +6,7 @@ import setting from "../Assets/setting-2.jpg";
 
 const Sidebar = () => {
   return (
-    <Box id="Sidebar" w="25%" ml={"0px"} bg="#FFFFFF">
+    <Box id="Sidebar" w="20%" ml={"0px"} bg="#FFFFFF">
       <Text
         w="203px"
         h="36px"
