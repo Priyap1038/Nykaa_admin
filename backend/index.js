@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 app.use("/api", userRouter);
 app.get("/", (req, res) =>{
-res.status(200).send("👉 Api is Running in Renderer 😎")
+res.status(200).send("Server is runnig in cycllic")
 })
 
 app.listen(process.env.PORT, async () => {
@@ -17,7 +17,7 @@ app.listen(process.env.PORT, async () => {
     await connection;
     console.log(
        ` Database is connected & Server is running at ${process.env.PORT}`
-       
+
     );
   } catch (error) {
     console.log(error);
